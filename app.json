@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "mdiscover",
+    "description": "An app to discover movies",
+    "slug": "mdiscover",
+    "privacy": "unlisted",
+    "sdkVersion": "23.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./src/assets/images/icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}

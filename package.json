@@ -1,0 +1,32 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js --watch",
+    "devtools": "react-devtools",
+    "flow-start": "flow start",
+    "flow-stop": "flow stop"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "23.0.0",
+    "flow-typed": "2.2.3",
+    "global": "4.3.2",
+    "react": "16.0.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
+    "react-navigation": "1.0.0-beta.19",
+    "react-redux": "5.0.6",
+    "redux": "3.7.2",
+    "redux-observable": "0.17.0",
+    "reselect": "3.0.1",
+    "rxjs": "5.5.2"
+  },
+  "devDependencies": {
+    "flow-bin": "0.59.0",
+    "jest-expo": "23.0.0",
+    "react-devtools": "3.0.0",
+    "redux-logger": "3.0.6"
+  }
+}

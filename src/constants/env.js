@@ -1,0 +1,1 @@
+export const THE_MOVIE_DB_API_KEY = '530efed8db6a036805eacc38532b9de8';
