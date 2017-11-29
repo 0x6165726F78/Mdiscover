@@ -1,7 +1,7 @@
 // @flow
 import './src/vendor';
 import React, { Component, PureComponent } from 'react';
-import { StatusBar, View } from 'react-native';
+import { StatusBar, View, Platform } from 'react-native';
 import { AppLoading, Asset, Font } from 'expo';
 import { Ionicons } from '@expo/vector-icons';
 import { Provider, connect } from 'react-redux';
@@ -45,8 +45,9 @@ class App extends Component<any, State> {
     } else {
       return (
         <View style={{ flex: 1 }}>
+          {Platform.OS === 'ios' && <StatusBar barStyle="light-content" />}
+          {Platform.OS === 'android' && <View style={{ height: 24, backgroundColor: 'rgba(0,0,0,0.2)' }} />}
           <RootNavigation />
-          <StatusBar barStyle="light-content" />
         </View>
       );
     }
